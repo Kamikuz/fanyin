@@ -5,7 +5,7 @@
 # Site
 title: 番音社 2020
 subtitle: 'Anime Music Club 2020'
-description: ''
+description: '番音社官方网站'
 keywords:
 author: Kamiku Xue
 language: zh
@@ -18,8 +18,8 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
