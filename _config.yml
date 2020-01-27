@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://kamikuz.github.io/fanyin/
-root: /fanyin/
+url: https://radio.kamikuz.cn/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,5 +100,5 @@ theme: nexmoe
 deploy:
   type: git
   repo: https://github.com/Kamikuz/Fanyin.git
-  # example, https://github.com/hexojs/hexojs.github.io
-  branch: master
+  branch: gh-pages
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
