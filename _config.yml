@@ -6,7 +6,7 @@
 title: 番音社 2020
 subtitle: 'Anime Music Club 2020'
 description: '番音社官方网站'
-keywords:
+keywords: 'Audio'
 author: Kamiku Xue
 language: zh
 timezone: ''
@@ -92,6 +92,8 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+aplayer:
+  meting: true
 ## Themes: https://hexo.io/themes/
 theme: nexmoe
 
@@ -101,4 +103,4 @@ deploy:
   type: git
   repo: https://github.com/Kamikuz/Fanyin.git
   branch: gh-pages
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
+  message: "更新: {{ now('YYYY-MM-DD HH:mm:ss') }})"
